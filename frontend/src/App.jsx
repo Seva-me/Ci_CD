@@ -11,7 +11,8 @@ function App() {
       const data = await res.json();
       setMessage(data.message);
     } catch (err) {
-      setMessage("Error calling backend", err);
+      setMessage("Error calling backend");
+      console.error(err);
     } finally {
       setLoading(false);
     }
