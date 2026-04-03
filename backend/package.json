@@ -1,0 +1,18 @@
+{
+  "name": "ci_cd",
+  "version": "1.0.0",
+  "description": "Sample product",
+  "license": "ISC",
+  "author": "Ravi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js",
+  "test": "echo \"No tests yet\" && exit 0"
+},
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
