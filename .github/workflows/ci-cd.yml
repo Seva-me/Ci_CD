@@ -69,9 +69,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Deploy
-        run: echo "🚀 Add your deploy step here"
-        # We'll fill this in once you choose a hosting platform
+      - name: Confirm deployment
+        run: echo "CI passed — Railway is deploying automatically"
